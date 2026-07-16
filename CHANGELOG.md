@@ -53,6 +53,13 @@ implementation rather than reinvented, so existing Anvil ledgers keep working.
   source is only read, never modified.
 - **Apache-2.0 licence**, `py.typed`, and no runtime dependencies.
 
+### Distribution
+
+- Published to PyPI as [`forgewire-anvil`](https://pypi.org/project/forgewire-anvil/):
+  `pip install forgewire-anvil`. Wheel and sdist; no runtime dependencies.
+- Source published to <https://github.com/ForgeWireLabs/anvil>, mirrored from the
+  ForgeWire monorepo.
+
 ### Notes
 
 - Export and import operate on stored records verbatim rather than round-tripping
