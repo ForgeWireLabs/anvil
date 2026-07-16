@@ -1,0 +1,34 @@
+[
+  {
+    "id": "issue-legacy-1",
+    "key": "LEG-1",
+    "project_key": "LEG",
+    "summary": "Legacy issue written before relations existed",
+    "status": "todo",
+    "priority": "medium",
+    "issue_type": "task",
+    "typed_links": [
+      {
+        "id": "rel-fabric",
+        "source_key": "LEG-1",
+        "target_type": "fabric_task",
+        "target_id": "task-aaa",
+        "display_label": "Legacy label name",
+        "metadata": {"legacy": true},
+        "created": "2026-01-01T00:00:00+00:00"
+      },
+      {
+        "id": "rel-job",
+        "source_key": "LEG-1",
+        "target_type": "job",
+        "target_id": "job-xyz",
+        "metadata": {},
+        "created": "2026-01-01T00:00:00+00:00",
+        "x_record_extra": "keep-on-record"
+      }
+    ],
+    "x_legacy_top_field": "keep-at-top",
+    "created": "2026-01-01T00:00:00+00:00",
+    "updated": "2026-01-01T00:00:00+00:00"
+  }
+]

@@ -1,0 +1,14 @@
+# .mirrorignore — paths excluded from the public mirror sync
+#
+# The public mirror (ForgeWireLabs/anvil) publishes the package itself: source,
+# tests, fixtures, packaging metadata, docs, and licence. Release tooling that
+# only makes sense inside the private monorepo is excluded.
+
+# Mirror publication tooling: operates on the monorepo, not on a clone.
+scripts/**
+
+# The release checklist documents the private monorepo workflow. It hardcodes
+# monorepo-local paths, refers to ForgeWire test trees that do not exist here,
+# and drives scripts/sync_mirror.ps1 — which this file excludes, so publishing
+# it would ship instructions for a script the reader does not have.
+docs/releasing.md

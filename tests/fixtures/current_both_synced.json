@@ -1,0 +1,37 @@
+[
+  {
+    "id": "issue-current-1",
+    "key": "CUR-1",
+    "project_key": "CUR",
+    "summary": "Current issue with relations and typed_links in sync",
+    "status": "in_progress",
+    "priority": "high",
+    "issue_type": "task",
+    "relations": [
+      {
+        "id": "rel-1",
+        "source_key": "CUR-1",
+        "target_type": "fabric_task",
+        "target_id": "task-111",
+        "target_label": "Build",
+        "url": null,
+        "metadata": {"terminal_status": "running"},
+        "created": "2026-06-01T00:00:00+00:00"
+      }
+    ],
+    "typed_links": [
+      {
+        "id": "rel-1",
+        "source_key": "CUR-1",
+        "target_type": "fabric_task",
+        "target_id": "task-111",
+        "target_label": "Build",
+        "url": null,
+        "metadata": {"terminal_status": "running"},
+        "created": "2026-06-01T00:00:00+00:00"
+      }
+    ],
+    "created": "2026-06-01T00:00:00+00:00",
+    "updated": "2026-06-01T00:00:00+00:00"
+  }
+]
