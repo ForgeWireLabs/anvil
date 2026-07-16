@@ -33,14 +33,19 @@ dependencies = []
 [project.optional-dependencies]
 dev = [
   "build>=1.2",
-  "pytest>=8.0"
+  "pytest>=8.0",
+  "twine>=5.0"
 ]
 
 [project.scripts]
 anvil = "forgewire_anvil.cli:main"
 
 [project.urls]
-Repository = "https://github.com/ForgeWireLabs/forgewire-anvil"
+Homepage = "https://github.com/ForgeWireLabs/anvil"
+Repository = "https://github.com/ForgeWireLabs/anvil"
+Changelog = "https://github.com/ForgeWireLabs/anvil/blob/main/CHANGELOG.md"
+Issues = "https://github.com/ForgeWireLabs/anvil/issues"
+Documentation = "https://github.com/ForgeWireLabs/anvil/blob/main/README.md"
 
 [tool.setuptools]
 package-dir = { "" = "src" }

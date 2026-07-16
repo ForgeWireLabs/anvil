@@ -6,11 +6,8 @@ Projects, issues, boards, sprints, workflows, and typed relations — provider
 neutral, auditable, dependency-free, and fully usable with no network and no
 external issue-tracker account.
 
-Not on PyPI yet — install from a clone or a built wheel:
-
 ```bash
-git clone https://github.com/ForgeWireLabs/anvil.git
-pip install ./anvil
+pip install forgewire-anvil
 ```
 
 ```bash
@@ -34,7 +31,7 @@ await anvil.provider.add_relation(issue.key, IssueRelation(
 
 > **Status: developer preview (`0.1.0a0`).** The API and on-disk schema may change
 > between releases — pin an exact version. The JSON store is **single-writer**;
-> read [docs/limitations.md](docs/limitations.md) before pointing more than one
+> read [docs/limitations.md](https://github.com/ForgeWireLabs/anvil/blob/main/docs/limitations.md) before pointing more than one
 > process at a ledger.
 
 ## Why
@@ -140,4 +137,4 @@ overwrite them. Issues and discussion are welcome and read.
 
 ## Licence
 
-[Apache-2.0](LICENSE).
+[Apache-2.0](https://github.com/ForgeWireLabs/anvil/blob/main/LICENSE).
