@@ -98,7 +98,7 @@ Not in this release:
 - multi-user or team synchronisation;
 - permissions, roles, or per-record access control;
 - a UI;
-- full Jira behavioural parity (an optional adapter exists in ForgeWire, not here);
+- external issue-tracker adapters;
 - automatic backup, retention, or compaction.
 
 ## Platform

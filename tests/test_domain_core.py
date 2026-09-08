@@ -36,7 +36,7 @@ def test_enum_wire_values_are_stable() -> None:
     ]
     assert [t.value for t in fa.IssueLinkTargetType] == [
         "fabric_task", "task_service_task", "job",
-        "conversation", "document", "external_jira",
+        "conversation", "document", "external_tracker",
     ]
 
 

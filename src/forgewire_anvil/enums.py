@@ -81,7 +81,7 @@ class IssueLinkTargetType(str, Enum):
     JOB = "job"
     CONVERSATION = "conversation"
     DOCUMENT = "document"
-    EXTERNAL_JIRA = "external_jira"
+    EXTERNAL_TRACKER = "external_tracker"
 
 
 class EventKind(str, Enum):

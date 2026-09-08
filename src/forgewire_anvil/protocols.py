@@ -21,7 +21,7 @@ class IssueTrackerProvider(Protocol):
     Lifecycle
     ---------
     Providers may own reusable clients/sessions (for example an HTTP session
-    against Jira). Callers should invoke :meth:`close` during service shutdown
+    against another implementation). Callers should invoke :meth:`close` during service shutdown
     so those transport-level resources are released deterministically.
     """
 

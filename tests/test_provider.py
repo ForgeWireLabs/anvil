@@ -1,7 +1,7 @@
 """Behavioral tests for the extracted Anvil provider.
 
 These mirror the ForgeWire suite that exercises the in-repo provider
-(tests/jira/test_local_issue_tracker.py) so the standalone package proves the
+(the former in-tree local issue tracker tests) so the standalone package proves the
 same behavior on its own, outside the application import tree. The provider
 body is byte-identical to the extracted source; these tests pin the behavior
 that must survive the extraction.
